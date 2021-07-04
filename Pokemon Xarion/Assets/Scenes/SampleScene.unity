@@ -568,7 +568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1206,8 +1206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7276b9fd47881c4084486fa3a01c3e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _base: {fileID: 11400000, guid: 1e2234245a7af4a4cb94f6479cb438e1, type: 2}
-  level: 7
   isPlayerUnit: 1
 --- !u!1 &689316547
 GameObject:
@@ -6471,7 +6469,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1205225125
 Transform:
   m_ObjectHideFlags: 0
@@ -6505,6 +6503,7 @@ MonoBehaviour:
   playerHud: {fileID: 1550874292}
   enemyHud: {fileID: 939880106}
   dialogBox: {fileID: 1854618521}
+  partyScreen: {fileID: 0}
 --- !u!1 &1265881683
 GameObject:
   m_ObjectHideFlags: 0
@@ -7346,8 +7345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7276b9fd47881c4084486fa3a01c3e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _base: {fileID: 11400000, guid: 53c54e2da3d98b140a8aaaae58da04b9, type: 2}
-  level: 5
   isPlayerUnit: 0
 --- !u!1 &1854618517
 GameObject:
@@ -7439,7 +7436,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb7e2fe17f7b914e907413b1c456d02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lettersPerSecond: 0
+  highlightedColor: {r: 0, g: 0, b: 0, a: 0}
   dialogText: {fileID: 934691176}
+  actionSelector: {fileID: 0}
+  moveSelector: {fileID: 0}
+  moveDetails: {fileID: 0}
+  actionTexts: []
+  moveTexts: []
+  ppText: {fileID: 0}
+  typeText: {fileID: 0}
 --- !u!1 &1897393055
 GameObject:
   m_ObjectHideFlags: 0

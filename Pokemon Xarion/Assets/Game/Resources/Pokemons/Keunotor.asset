@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7364acbe824812448083c8af6961c12, type: 3}
+  m_Name: Keunotor
+  m_EditorClassIdentifier: 
+  name: Keunotor
+  description: 
+  frontSprite: {fileID: 21300000, guid: bbbba86a83bce934cbf879ee1446e1e6, type: 3}
+  backSprite: {fileID: 21300000, guid: 71eed6d88c1326a45807bb8549f72417, type: 3}
+  type1: 1
+  type2: 0
+  maxHp: 59
+  attack: 45
+  defense: 40
+  spAttack: 35
+  spDefense: 40
+  speed: 31
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 67bf100eab12c334f80e04f0d4ee1916, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 07fe02affd66b87409f9261297673d31, type: 2}
+    level: 3
